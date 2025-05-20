@@ -27,6 +27,12 @@ namespace Chapter2 {
             Console.WriteLine(p1.Name); // Pan Dee
             Console.WriteLine(p2.Name); // Pan Dah
             Console.WriteLine(Panda.Population); // 2
+
+            Console.WriteLine("\n--- Пример: Проверка переполнения ---");
+            Examples.Checked();
+            
+            Console.WriteLine("\n--- Пример: Специальные значения float и double ---");
+            Examples.SpecialFloatAndDoubleValues();
         }
     }
 }
