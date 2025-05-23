@@ -1,21 +1,21 @@
 using System;
+using Chapter_3._Creating_Types_in_C_;
 
 namespace Chapter3 {
     class Program {
         static void Main(string[] args) {
-            Console.WriteLine("=== Примеры из главы 3: Creating Types in C# ===\n");
+            Console.WriteLine("=== Примеры из главы 3: Создание типов в C# ===\n");
 
-            Console.WriteLine("--- Пример 1: Классы ---");
-            Examples.ClassExample();
-            Console.WriteLine();
+            var objectDemo = new TheObjectType();
 
-            Console.WriteLine("--- Пример 2: Структуры ---");
-            Examples.StructExample();
-            Console.WriteLine();
+            Console.WriteLine("--- Демонстрация упаковки и распаковки ---");
+            objectDemo.BoxingAndUnboxing();
 
-            Console.WriteLine("--- Пример 3: Перечисления ---");
-            Examples.EnumExample();
-            Console.WriteLine();
+            Console.WriteLine("--- Демонстрация понижающего приведения типов ---");
+            objectDemo.DownCasting();
+
+            Console.WriteLine("--- Демонстрация получения информации о типе ---");
+            objectDemo.GetTypeMethod();
 
             Console.WriteLine("Нажмите любую клавишу для выхода...");
             Console.ReadKey();
