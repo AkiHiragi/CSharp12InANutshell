@@ -58,29 +58,29 @@ namespace Chapter2 {
             int a = 1_000_000;
             int b = 1_000_000;
             int c = unchecked(a * b);
-            System.Console.WriteLine(c);
+            Console.WriteLine(c);
         }
         #endregion
 
         #region Special Float And Double Values
         public static void SpecialFloatAndDoubleValues() {
             Console.WriteLine("=== Специальные значения float и double ===\n");
-            
+
             Console.WriteLine("Положительная бесконечность (1.0 / 0.0):");
             Console.WriteLine($"  Результат: {1.0 / 0.0}\n");
-            
+
             Console.WriteLine("Отрицательная бесконечность (-1.0 / 0.0):");
             Console.WriteLine($"  Результат: {-1.0 / 0.0}\n");
-            
+
             Console.WriteLine("Деление на отрицательный ноль (1.0 / -0.0):");
             Console.WriteLine($"  Результат: {1.0 / -0.0}\n");
-            
+
             Console.WriteLine("Деление отрицательного числа на отрицательный ноль (-1.0 / -0.0):");
             Console.WriteLine($"  Результат: {-1.0 / -0.0}\n");
 
             Console.WriteLine("Неопределенное значение (NaN) (0.0 / 0.0):");
             Console.WriteLine($"  Результат: {0.0 / 0.0}\n");
-            
+
             Console.WriteLine("Бесконечность минус бесконечность ((1.0 / 0.0) - (1.0 / 0.0)):");
             Console.WriteLine($"  Результат: {(1.0 / 0.0) - (1.0 / 0.0)}\n");
 
@@ -91,7 +91,7 @@ namespace Chapter2 {
             Console.WriteLine($"  Результат: {double.IsNaN(0.0 / 0.0)} (правильный способ проверки)\n");
 
             Console.WriteLine("Сравнение NaN с помощью object.Equals (object.Equals(0.0 / 0.0, double.NaN)):");
-            Console.WriteLine($"  Результат: {object.Equals(0.0 / 0.0, double.NaN)}\n");
+            Console.WriteLine($"  Результат: {Equals(0.0 / 0.0, double.NaN)}\n");
         }
         #endregion
 
