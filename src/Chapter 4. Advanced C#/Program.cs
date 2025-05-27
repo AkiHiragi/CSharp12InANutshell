@@ -13,6 +13,24 @@ namespace Chapter4 {
             lambdaDemo.LambdaCapture();
             Console.WriteLine();
 
+            Console.WriteLine("--- Пример: Обработка исключений ---");
+            ExceptionHandling exceptionDemo = new ExceptionHandling();
+            exceptionDemo.BasicTryCatch();
+            exceptionDemo.MultipleCatchBlocks();
+            exceptionDemo.FinallyBlock();
+            exceptionDemo.ExceptionFilters();
+            Console.WriteLine();
+
+            Console.WriteLine("--- Пример: Перечисление и итераторы ---");
+            EnumerationAndIterators enumDemo = new EnumerationAndIterators();
+            enumDemo.Enumeration();
+            enumDemo.CollectionInitializers();
+            enumDemo.Iterators();
+            enumDemo.IteratorSemantics(false);
+            enumDemo.IteratorSemantics(true);
+            enumDemo.ComposingSequences();
+            Console.WriteLine();
+
             Console.WriteLine("Нажмите любую клавишу для выхода...");
             Console.ReadKey();
         }
