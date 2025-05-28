@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter 3. Creating Types i
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter 4. Advanced C#", "src\Chapter 4. Advanced C#\Chapter 4. Advanced C#.csproj", "{0409DB23-A693-4767-887C-58A27B8ABE0A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chapter 6. NET Fundamentals", "src\Chapter 6. NET Fundamentals\Chapter 6. NET Fundamentals.csproj", "{D2230C2D-DD2B-4A07-8728-2A0C3BA9D251}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -71,6 +73,18 @@ Global
 		{0409DB23-A693-4767-887C-58A27B8ABE0A}.Release|x64.Build.0 = Release|Any CPU
 		{0409DB23-A693-4767-887C-58A27B8ABE0A}.Release|x86.ActiveCfg = Release|Any CPU
 		{0409DB23-A693-4767-887C-58A27B8ABE0A}.Release|x86.Build.0 = Release|Any CPU
+		{D2230C2D-DD2B-4A07-8728-2A0C3BA9D251}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2230C2D-DD2B-4A07-8728-2A0C3BA9D251}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2230C2D-DD2B-4A07-8728-2A0C3BA9D251}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D2230C2D-DD2B-4A07-8728-2A0C3BA9D251}.Debug|x64.Build.0 = Debug|Any CPU
+		{D2230C2D-DD2B-4A07-8728-2A0C3BA9D251}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D2230C2D-DD2B-4A07-8728-2A0C3BA9D251}.Debug|x86.Build.0 = Debug|Any CPU
+		{D2230C2D-DD2B-4A07-8728-2A0C3BA9D251}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2230C2D-DD2B-4A07-8728-2A0C3BA9D251}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2230C2D-DD2B-4A07-8728-2A0C3BA9D251}.Release|x64.ActiveCfg = Release|Any CPU
+		{D2230C2D-DD2B-4A07-8728-2A0C3BA9D251}.Release|x64.Build.0 = Release|Any CPU
+		{D2230C2D-DD2B-4A07-8728-2A0C3BA9D251}.Release|x86.ActiveCfg = Release|Any CPU
+		{D2230C2D-DD2B-4A07-8728-2A0C3BA9D251}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -80,5 +94,6 @@ Global
 		{2B3C4D5E-6F7A-8B9C-0D1E-2F3A4B5C6D7E} = {D8F92603-6BEE-4569-9F3F-D36BE8E547C0}
 		{3C4D5E6F-7A8B-9C0D-1E2F-3A4B5C6D7E8F} = {D8F92603-6BEE-4569-9F3F-D36BE8E547C0}
 		{0409DB23-A693-4767-887C-58A27B8ABE0A} = {D8F92603-6BEE-4569-9F3F-D36BE8E547C0}
+		{D2230C2D-DD2B-4A07-8728-2A0C3BA9D251} = {D8F92603-6BEE-4569-9F3F-D36BE8E547C0}
 	EndGlobalSection
 EndGlobal
